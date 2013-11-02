@@ -15,7 +15,7 @@ javascript:(function()
 	function uca()
 	{
 		panel = $('<div>');
-		panel.css('width', '100%').css('height', '100px').css('z-index', '99999').css('position', 'absolute').css('background-color', 'white');
+		panel.css('width', '100%').css('height', '100px').css('z-index', '99999').css('position', 'absolute').css('background-color', 'white').css('text-align', 'center');
 		panel.hide();
 		response = $('<div>');
 		panel.append(response);
